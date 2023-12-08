@@ -1,0 +1,39 @@
+.Provision {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.Title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: #000;
+  margin: 50px 0;
+}
+
+.SubTitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Desc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .Provision {
+    padding: 30px 16px;
+    box-sizing: border-box;
+  }
+}
